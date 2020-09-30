@@ -1,0 +1,53 @@
+#box{
+    width: 600px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7b4b2;
+    margin-top: 100px;
+    border-radius: 12px;    
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 35px; 
+}
+form{
+    text-align: center;
+}
+form p{
+    font-family:'Raleway', sans-serif;
+    font-size: 15px;
+}
+input{
+    border-radius: 8px;
+    font-size: 15px; 
+    width: 280px;    
+}
+a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;  
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 30%;
+}
+button{
+    font-size: 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color:grey;
+    color: #fffef9;
+    width: 250px;
+}
+@media screen and (max-width: 1000px){
+    #box{
+        width: 100%;
+        height: auto;
+        margin-top: 0px
+    }
+    a{
+        margin-left: 25%
+    }
+}

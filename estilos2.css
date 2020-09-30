@@ -1,0 +1,84 @@
+#container{
+    width: 100%;
+    height: auto;
+    background-color: #fffef9;;
+}
+#box{
+    width: 860px;
+    height: 504px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7b4b2;
+    margin-top: 50px;
+    border-radius: 12px;
+}
+.content{
+    width: 400px;
+    height: 504px;
+    float: left;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 35px; 
+}   
+form{
+    text-align: center;
+}
+form p{
+    font-family:'Raleway', sans-serif;
+    font-size: 25px;
+}
+input{
+    border-radius: 8px;
+    font-size: 20px; 
+    width: 280px;    
+}
+a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;  
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 70px;
+}
+button{
+    font-size: 25px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color:grey;
+    color: #fffef9;
+    width: 250px;
+  
+}
+button:hover{
+    background-color: black;
+    color: #fffef9;
+}
+.content1{
+    width: 400px;
+    height: 464px;
+    float: right;
+    padding: 20px 20px
+}
+.content1 img{
+    width: 100%;
+    border-radius: 12px;
+   
+}
+@media screen and (max-width: 1000px){
+    #box{
+        width: 100%;
+        height: auto;
+    }
+    .content{
+        width: 100%;
+        height: auto;
+        background-color: #e7b4b2;
+        padding: 0px;
+    }
+    .content1 img{
+        display: none;
+    }
+}
